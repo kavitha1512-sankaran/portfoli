@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Projects</h1>
+        <a href="/" class="back-btn">← Back to Home</a>
+    </header>
+
+    <main class="projects-page">
+
+        <div class="project-card">
+            <h2>Portfolio Website</h2>
+            <p>
+                A full-stack personal portfolio website built using
+                HTML, CSS, JavaScript, Flask and MySQL.
+            </p>
+
+            <button>View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h2>Age Calculator</h2>
+            <p>
+                A simple application that calculates a person's age
+                based on their date of birth.
+            </p>
+
+            <button>View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h2>Student Management System</h2>
+            <p>
+                A web application for managing student information
+                using Flask and MySQL.
+            </p>
+
+            <button>View Project</button>
+        </div>
+
+    </main>
+
+</body>
+</html>
